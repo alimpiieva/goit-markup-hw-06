@@ -451,6 +451,10 @@ text-transform: uppercase;
 color: var(--logo-btn-clr);
 }
 
+.footer-logo-cont {
+    margin-right: 120px;
+}
+
 .span-footer{
 color: #F4F4FD;
 }
@@ -461,6 +465,10 @@ max-width: 264px;
 margin-top: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
+}
+
+.social-media {
+    margin-right: 80px;
 }
 
 .social-icon-list {
@@ -497,7 +505,7 @@ background-color: #31D0AA;
 
 .footer-container {
     display:flex;
-    gap: 120px;
+    /* gap: 120px; */
     align-items: baseline;
 }
 
@@ -828,3 +836,84 @@ border-radius: 4px;
 .modal-form-submit:focus {
 background-color: var(--pseudoclass-clr);
 }
+
+/* ----------- FOOTER INPUT --------- */
+
+.input-wrap {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-footer-wrap {
+    display: flex;
+    align-items:flex-end;
+    margin-right: 0;
+}
+
+.footer-input-field-desc {
+display: block;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #FFFFFF;
+margin-bottom: 16px;
+}
+
+.footer-form-input {
+min-width: 264px;
+height: 40px;
+padding-left: 16px;
+padding-top: 8px;
+padding-bottom: 8px;
+margin-right: 24px;
+border: 1px solid rgba(255, 255, 255, 0.3);
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+border-radius: 4px;
+background-color: transparent;
+}
+
+.footer-form-input:focus {
+outline: none;
+border-color: #4D5AE5;
+}
+
+.footer-btn-subsc {
+min-width: 165px;
+height: 40px;
+padding-top: 8px;
+padding-left: 24px;
+padding-bottom: 24px;
+padding-right: 64px;
+font-weight: 500;
+line-height: 1.5;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+background-color: var(--logo-btn-clr);
+border: none;
+border-radius: 4px;
+
+transition: background-color var(--transition-time) var(--transition-timing-function);
+}
+
+.footer-btn-subsc:hover,
+.footer-btn-subsc:focus {
+background-color: var(--pseudoclass-clr);
+
+}
+.footer-icon-send {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translate(-100%, -50%);
+}
+
+.for-icon-wrap {
+    position: relative;
+}
+
+.footer-input-field{
+    display: flex;
+    align-items: flex-end;
+}
+
