@@ -844,7 +844,7 @@ background-color: var(--pseudoclass-clr);
     flex-direction: column;
 }
 
-.input-footer-wrap {
+.footer-form-submit {
     display: flex;
     align-items:flex-end;
     margin-right: 0;
@@ -871,6 +871,7 @@ border: 1px solid rgba(255, 255, 255, 0.3);
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 border-radius: 4px;
 background-color: transparent;
+color:#FFFFFF;
 }
 
 .footer-form-input:focus {
