@@ -795,7 +795,7 @@ margin-bottom: 16px;
 .modal-form-check:checked + .modal-form-check-desc::before {
 background-color:#404BBF;
 border-color: #404BBF;
-background-image: url(/images/check.svg);
+background-image: url(../images/check.svg);
 background-repeat: no-repeat;
 background-position: center;
 }
